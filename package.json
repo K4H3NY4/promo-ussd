@@ -1,35 +1,26 @@
 {
-  "name": "my-strapi-project",
+  "name": "strapi-sqlite",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
-  "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+	@@ -11,19 +11,24 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.16.2",
-    "@strapi/plugin-users-permissions": "4.16.2",
-    "@strapi/plugin-i18n": "4.16.2",
-    "@strapi/plugin-cloud": "4.16.2",
-    "better-sqlite3": "8.6.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+    "@strapi/plugin-i18n": "4.1.7",
+    "@strapi/strapi": "4.1.7",
+    "@strapi/plugin-users-permissions": "4.1.7",
+    "sqlite3": "^5.0.2"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "002630d4-aa93-4cb5-9551-4b889da5e213"
+    "uuid": "b4a9b934-98e8-401e-9f60-ad3319a3e359"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
+    "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
-}
+	
