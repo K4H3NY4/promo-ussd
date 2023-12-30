@@ -2,8 +2,7 @@
   "name": "strapi-sqlite",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
-	@@ -11,19 +11,24 @@
+  "description": "A Strapi application"
   },
   "devDependencies": {},
   "dependencies": {
