@@ -13,7 +13,7 @@ services:
       sizeGB: 1
     envVars:
       - key: NODE_VERSION
-        value: ~20.10.0
+        value: ~16.50.0
       - key: NODE_ENV
         value: develop
       - key: DATABASE_FILENAME
