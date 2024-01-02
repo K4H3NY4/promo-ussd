@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parkings",
+  "info": {
+    "singularName": "parking",
+    "pluralName": "parkings",
+    "displayName": "parking",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Date_paid": {
+      "type": "datetime"
+    },
+    "Date_expired": {
+      "type": "datetime"
+    },
+    "Status": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "vehicle": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::vehicle.vehicle"
+    },
+    "customer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::customer.customer"
+    }
+  }
+}
